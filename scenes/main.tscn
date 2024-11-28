@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3x64v7pxvero"]
+
+[ext_resource type="PackedScene" uid="uid://duadthi4na070" path="res://scenes/procedural_map.tscn" id="1_61hbk"]
+[ext_resource type="PackedScene" uid="uid://o4smubp86ewe" path="res://scenes/player.tscn" id="2_dgd0w"]
+
+[node name="Main" type="Node2D"]
+
+[node name="ProceduralMap" parent="." instance=ExtResource("1_61hbk")]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_dgd0w")]
+position = Vector2(487, 323)
