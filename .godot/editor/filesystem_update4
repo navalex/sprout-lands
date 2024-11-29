@@ -1,10 +1,8 @@
 res://scenes/map.tscn
 res://tilesets/map.tres
 res://scenes/map.gdshader
-res://addons/godot-git-plugin/THIRDPARTY.md
 res://scenes/player.tscn
 res://scenes/main.tscn
-res://procedural_map.tscn
-res://scripts/procedural_map.gd
 res://scenes/procedural_map.tscn
-res://scripts/player.gd
+res://scripts/procedural_map.gd
+res://scenes/main_menu.tscn
