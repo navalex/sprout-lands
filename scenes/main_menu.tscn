@@ -1,7 +1,10 @@
-[gd_scene load_steps=26 format=3 uid="uid://bi7dsfwfhppi7"]
+[gd_scene load_steps=33 format=3 uid="uid://bi7dsfwfhppi7"]
 
 [ext_resource type="FontFile" uid="uid://cbcj80lk8dccp" path="res://assets/fonts/pixelFont-7-8x14-sproutLands.ttf" id="1_2iiuw"]
-[ext_resource type="Texture2D" uid="uid://dgs5gc1cxeen8" path="res://assets/Sprite sheets/Sprite sheet for Basic Pack.png" id="2_inwi1"]
+[ext_resource type="Texture2D" uid="uid://dgs5gc1cxeen8" path="res://assets/Menus/Sprite sheet for Basic Pack.png" id="2_inwi1"]
+[ext_resource type="PackedScene" uid="uid://duo80rmjx8t5s" path="res://scenes/map.tscn" id="3_c0nqo"]
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="3_w7chd"]
+[ext_resource type="Texture2D" uid="uid://m7561csygkvd" path="res://assets/Menus/Setting menu.png" id="4_slned"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lme1f"]
 atlas = ExtResource("2_inwi1")
@@ -9,9 +12,9 @@ region = Rect2(160, 176, 96, 32)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cls2d"]
 content_margin_left = 20.0
-content_margin_top = 20.0
+content_margin_top = 10.0
 content_margin_right = 20.0
-content_margin_bottom = 20.0
+content_margin_bottom = 10.0
 texture = SubResource("AtlasTexture_lme1f")
 texture_margin_left = 8.0
 texture_margin_top = 8.0
@@ -23,9 +26,9 @@ modulate_color = Color(0.2484, 0.2484, 0.2484, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bp5gc"]
 content_margin_left = 20.0
-content_margin_top = 20.0
+content_margin_top = 10.0
 content_margin_right = 20.0
-content_margin_bottom = 20.0
+content_margin_bottom = 10.0
 texture = SubResource("AtlasTexture_lme1f")
 texture_margin_left = 8.0
 texture_margin_top = 8.0
@@ -40,9 +43,9 @@ region = Rect2(256, 176, 96, 32)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_15t32"]
 content_margin_left = 20.0
-content_margin_top = 22.0
+content_margin_top = 10.0
 content_margin_right = 20.0
-content_margin_bottom = 18.0
+content_margin_bottom = 10.0
 texture = SubResource("AtlasTexture_5mku0")
 texture_margin_left = 8.0
 texture_margin_top = 8.0
@@ -51,9 +54,9 @@ texture_margin_bottom = 8.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x7nb7"]
 content_margin_left = 20.0
-content_margin_top = 20.0
+content_margin_top = 10.0
 content_margin_right = 20.0
-content_margin_bottom = 20.0
+content_margin_bottom = 10.0
 texture = SubResource("AtlasTexture_lme1f")
 texture_margin_left = 8.0
 texture_margin_top = 8.0
@@ -62,9 +65,9 @@ texture_margin_bottom = 8.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cdduc"]
 content_margin_left = 20.0
-content_margin_top = 22.0
+content_margin_top = 10.0
 content_margin_right = 20.0
-content_margin_bottom = 18.0
+content_margin_bottom = 10.0
 texture = SubResource("AtlasTexture_5mku0")
 texture_margin_left = 8.0
 texture_margin_top = 8.0
@@ -101,11 +104,11 @@ region = Rect2(400, 36, 20, 24)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_runnq"]
 atlas = ExtResource("2_inwi1")
-region = Rect2(400, 4, 20, 24)
+region = Rect2(768, 224, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bawad"]
 atlas = ExtResource("2_inwi1")
-region = Rect2(244, 148, 24, 8)
+region = Rect2(276, 164, 40, 8)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xn46f"]
 texture = SubResource("AtlasTexture_bawad")
@@ -115,6 +118,23 @@ texture_margin_right = 4.0
 texture_margin_bottom = 4.0
 axis_stretch_vertical = 2
 draw_center = false
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lywb0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1bxj"]
+atlas = ExtResource("2_inwi1")
+region = Rect2(200, 8, 32, 32)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nadxf"]
+content_margin_left = 10.0
+content_margin_top = 10.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+texture = SubResource("AtlasTexture_g1bxj")
+texture_margin_left = 8.0
+texture_margin_top = 6.0
+texture_margin_right = 8.0
+texture_margin_bottom = 8.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nhuta"]
 atlas = ExtResource("2_inwi1")
@@ -160,20 +180,84 @@ CheckButton/icons/unchecked_disabled = SubResource("AtlasTexture_4icb1")
 HSlider/icons/grabber = SubResource("AtlasTexture_t15dg")
 HSlider/icons/grabber_highlight = SubResource("AtlasTexture_runnq")
 HSlider/styles/slider = SubResource("StyleBoxTexture_xn46f")
+Label/fonts/font = ExtResource("1_2iiuw")
+LineEdit/colors/caret_color = Color(0.878431, 0.74902, 0.564706, 1)
+LineEdit/font_sizes/font_size = 16
+LineEdit/fonts/font = null
+LineEdit/icons/clear = SubResource("AtlasTexture_runnq")
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_lywb0")
+LineEdit/styles/normal = SubResource("StyleBoxTexture_nadxf")
+LineEdit/styles/read_only = SubResource("StyleBoxTexture_nadxf")
 VSlider/icons/grabber = SubResource("AtlasTexture_nhuta")
 VSlider/icons/grabber_highlight = SubResource("AtlasTexture_vto64")
 VSlider/styles/slider = SubResource("StyleBoxTexture_vignj")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_yucd3"]
+atlas = ExtResource("4_slned")
+region = Rect2(136, 8, 112, 128)
+
 [node name="Control" type="Control"]
 layout_mode = 3
-anchors_preset = 0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
 scale = Vector2(4, 4)
 theme = SubResource("Theme_emhdk")
+script = ExtResource("3_w7chd")
 
-[node name="Button" type="Button" parent="."]
+[node name="Map" parent="." instance=ExtResource("3_c0nqo")]
+position = Vector2(67, 68.25)
+scale = Vector2(1, 1)
+
+[node name="MenuContainer" type="NinePatchRect" parent="."]
 layout_mode = 0
-offset_left = 178.5
-offset_top = 127.5
-offset_right = 298.5
-offset_bottom = 182.5
+offset_left = -109.0
+offset_top = -36.0
+offset_right = 127.0
+offset_bottom = 114.0
+scale = Vector2(0.8, 0.8)
+texture = SubResource("AtlasTexture_yucd3")
+
+[node name="GameNameLabel" type="Label" parent="MenuContainer"]
+layout_mode = 0
+offset_left = 43.25
+offset_top = 15.75
+offset_right = 200.25
+offset_bottom = 38.75
+text = "Party name"
+horizontal_alignment = 1
+
+[node name="GameNameInput" type="LineEdit" parent="MenuContainer"]
+layout_mode = 0
+offset_left = 20.25
+offset_top = 47.8125
+offset_right = 214.25
+offset_bottom = 87.8125
+theme_override_font_sizes/font_size = 14
+max_length = 24
+clear_button_enabled = true
+caret_blink = true
+
+[node name="PlayButton" type="Button" parent="MenuContainer"]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 103.5
+offset_right = 178.0
+offset_bottom = 138.5
 text = "Play"
+
+[node name="QuitButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 195.0
+offset_top = 117.5
+offset_right = 285.0
+offset_bottom = 152.5
+scale = Vector2(0.5, 0.5)
+text = "LEAVE"
+
+[connection signal="pressed" from="MenuContainer/PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

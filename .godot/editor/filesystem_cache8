@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732833579
+::res://::1732914428
 icon.svg::CompressedTexture2D::3084941474673462313::1732642007::1732642021::1::::<><>::
 ::res://addons/::1732669352
 ::res://addons/godot-git-plugin/::1732750564
@@ -8,7 +8,7 @@ THIRDPARTY.md::TextFile::-1::1732750564::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1732669352
 ::res://addons/godot-git-plugin/osx/::1732669352
 ::res://addons/godot-git-plugin/win64/::1732669352
-::res://assets/::1732834528
+::res://assets/::1732914428
 read_me.txt::TextFile::-1::1732642234::0::1::::<><>::
 ::res://assets/Characters/::1732642251
 Basic Charakter Actions.png::CompressedTexture2D::1859789562231118355::1732642234::1732642251::1::::<><>::
@@ -17,10 +17,10 @@ Egg_And_Nest.png::CompressedTexture2D::919293066801068989::1732642234::173264225
 Free Chicken Sprites.png::CompressedTexture2D::3811836182058858508::1732642234::1732642251::1::::<><>::
 Free Cow Sprites.png::CompressedTexture2D::7546389969352524016::1732642234::1732642251::1::::<><>::
 Tools.png::CompressedTexture2D::5203139872807567316::1732642234::1732642251::1::::<><>::
-::res://assets/emojis-free/::1732834528
+::res://assets/emojis-free/::1732834529
 Emoji_Spritesheet_Free.png::CompressedTexture2D::815115124984353648::1732834528::1732834529::1::::<><>::
 speech_bubble_grey.png::CompressedTexture2D::3513930450253186338::1732834528::1732834529::1::::<><>::
-::res://assets/emojis-free/emoji style ui/::1732834528
+::res://assets/emojis-free/emoji style ui/::1732834529
 Inventory_Blocks_Spritesheet.png::CompressedTexture2D::3526954362890733107::1732834528::1732834529::1::::<><>::
 inventory_example.png::CompressedTexture2D::5771601303734328954::1732834528::1732834529::1::::<><>::
 inventory_example_2.png::CompressedTexture2D::176652360504084802::1732834528::1732834529::1::::<><>::
@@ -33,13 +33,47 @@ inventory_Light_example_with_slots.png::CompressedTexture2D::3391115143053599195
 Inventory_Light_example_with_slots_2.png::CompressedTexture2D::710423861771140562::1732834528::1732834529::1::::<><>::
 Inventory_Light_Herat_Spritesheet.png::CompressedTexture2D::1243352481719585351::1732834528::1732834529::1::::<><>::
 Inventory_Spritesheet.png::CompressedTexture2D::7246187129610226363::1732834528::1732834529::1::::<><>::
-::res://assets/emojis-free/emoji style ui/weather/::1732834528
+::res://assets/emojis-free/emoji style ui/weather/::1732834529
 Weather_Icons_smal_freel.png::CompressedTexture2D::1208588179125792614::1732834528::1732834529::1::::<><>::
 Weather_UI_Free.png::CompressedTexture2D::7531501737340288355::1732834528::1732834529::1::::<><>::
-::res://assets/fonts/::1732834528
+::res://assets/fonts/::1732834529
 pixel-letters-7-8x14-preview.png::CompressedTexture2D::8965402638752147944::1732834528::1732834529::1::::<><>::
 pixel-letters-7-8x14.png::CompressedTexture2D::7793856929513360012::1732834528::1732834529::1::::<><>::
 pixelFont-7-8x14-sproutLands.ttf::FontFile::4847765681241289603::1732834528::1732834529::1::::<><>::
+::res://assets/Menus/::1732834529
+Setting menu.png::CompressedTexture2D::910204450727217509::1732834528::1732914429::1::::<><>::
+Sprite sheet for Basic Pack.png::CompressedTexture2D::7619386282360380731::1732834528::1732914429::1::::<><>::
+UI Big Play Button.png::CompressedTexture2D::3399216596404407198::1732834528::1732914429::1::::<><>::
+UI Settings Buttons.png::CompressedTexture2D::6112613130302268811::1732834528::1732914429::1::::<><>::
+::res://assets/Menus/buttons/::1732834529
+Small Square Buttons.png::CompressedTexture2D::7446355929459389585::1732834528::1732914429::1::::<><>::
+Square Buttons 19x26.png::CompressedTexture2D::5519635805333525695::1732834528::1732914429::1::::<><>::
+Square Buttons 26x19.png::CompressedTexture2D::9107511628211323594::1732834528::1732914429::1::::<><>::
+Square Buttons 26x26.png::CompressedTexture2D::661727526487080888::1732834528::1732914429::1::::<><>::
+::res://assets/Menus/Dialouge UI/::1732834529
+dialog box big.png::CompressedTexture2D::4593700356123840405::1732834528::1732914429::1::::<><>::
+dialog box character finished talking click to continue indicator - spritesheet .png::CompressedTexture2D::8227547810677983008::1732834528::1732914429::1::::<><>::
+dialog box medium.png::CompressedTexture2D::1181740043909451928::1732834528::1732914429::1::::<><>::
+dialog box small.png::CompressedTexture2D::6044291464071261467::1732834528::1732914429::1::::<><>::
+dialog box.png::CompressedTexture2D::8492478072863709275::1732834528::1732914429::1::::<><>::
+Premade dialog box  big.png::CompressedTexture2D::8570146779550577375::1732834528::1732914429::1::::<><>::
+Premade dialog box medium.png::CompressedTexture2D::3845468169469514825::1732834528::1732914429::1::::<><>::
+Premade dialog box small.png::CompressedTexture2D::585512483798558106::1732834528::1732914429::1::::<><>::
+::res://assets/Menus/Dialouge UI/Emotes/::1732834529
+Teemo Basic emote animations sprite sheet.png::CompressedTexture2D::2057718906924493440::1732834528::1732914429::1::::<><>::
+::res://assets/Menus/Icons/::1732834529
+All Icons.png::CompressedTexture2D::889246893914407254::1732834528::1732914429::1::::<><>::
+white icons.png::CompressedTexture2D::6524898863223072490::1732834528::1732914429::1::::<><>::
+::res://assets/Menus/Icons/special icons/::1732834529
+Small Happines-Sadness icons.png::CompressedTexture2D::5407185027691956025::1732834528::1732914429::1::::<><>::
+Special Icons.png::CompressedTexture2D::1770713608992646742::1732834528::1732914429::1::::<><>::
+::res://assets/Menus/Mouse sprites/::1732834529
+Catpaw holding Mouse icon.png::CompressedTexture2D::7731494553706300641::1732834528::1732914429::1::::<><>::
+Catpaw Mouse icon.png::CompressedTexture2D::1260538989830574959::1732834528::1732914429::1::::<><>::
+Catpaw pointing Mouse icon.png::CompressedTexture2D::6245958717628335475::1732834528::1732914429::1::::<><>::
+Triangle Mouse icon 1.png::CompressedTexture2D::3296642703240518611::1732834528::1732914429::1::::<><>::
+Triangle Mouse icon 2.png::CompressedTexture2D::1460043466523227162::1732834528::1732914429::1::::<><>::
+Triangle Mouse icon 3.png::CompressedTexture2D::2753900702225001910::1732834528::1732914429::1::::<><>::
 ::res://assets/Objects/::1732642251
 Basic_Furniture.png::CompressedTexture2D::8465540500618999124::1732642234::1732642251::1::::<><>::
 Basic_Grass_Biom_things.png::CompressedTexture2D::9213503034212166050::1732642234::1732642251::1::::<><>::
@@ -51,40 +85,6 @@ Free_Chicken_House.png::CompressedTexture2D::1370697200454532791::1732642234::17
 Paths.png::CompressedTexture2D::2326760650846961296::1732642234::1732642251::1::::<><>::
 Simple_Milk_and_grass_item.png::CompressedTexture2D::8039505662793635868::1732642234::1732642251::1::::<><>::
 Wood_Bridge.png::CompressedTexture2D::9011221558656405172::1732642234::1732642251::1::::<><>::
-::res://assets/Sprite sheets/::1732834528
-Setting menu.png::CompressedTexture2D::910204450727217509::1732834528::1732834529::1::::<><>::
-Sprite sheet for Basic Pack.png::CompressedTexture2D::7619386282360380731::1732834528::1732834529::1::::<><>::
-UI Big Play Button.png::CompressedTexture2D::3399216596404407198::1732834528::1732834529::1::::<><>::
-UI Settings Buttons.png::CompressedTexture2D::6112613130302268811::1732834528::1732834529::1::::<><>::
-::res://assets/Sprite sheets/buttons/::1732834528
-Small Square Buttons.png::CompressedTexture2D::7446355929459389585::1732834528::1732834529::1::::<><>::
-Square Buttons 19x26.png::CompressedTexture2D::5519635805333525695::1732834528::1732834529::1::::<><>::
-Square Buttons 26x19.png::CompressedTexture2D::9107511628211323594::1732834528::1732834529::1::::<><>::
-Square Buttons 26x26.png::CompressedTexture2D::661727526487080888::1732834528::1732834529::1::::<><>::
-::res://assets/Sprite sheets/Dialouge UI/::1732834528
-dialog box big.png::CompressedTexture2D::4593700356123840405::1732834528::1732834529::1::::<><>::
-dialog box character finished talking click to continue indicator - spritesheet .png::CompressedTexture2D::8227547810677983008::1732834528::1732834529::1::::<><>::
-dialog box medium.png::CompressedTexture2D::1181740043909451928::1732834528::1732834529::1::::<><>::
-dialog box small.png::CompressedTexture2D::6044291464071261467::1732834528::1732834529::1::::<><>::
-dialog box.png::CompressedTexture2D::8492478072863709275::1732834528::1732834529::1::::<><>::
-Premade dialog box  big.png::CompressedTexture2D::8570146779550577375::1732834528::1732834529::1::::<><>::
-Premade dialog box medium.png::CompressedTexture2D::3845468169469514825::1732834528::1732834529::1::::<><>::
-Premade dialog box small.png::CompressedTexture2D::585512483798558106::1732834528::1732834529::1::::<><>::
-::res://assets/Sprite sheets/Dialouge UI/Emotes/::1732834528
-Teemo Basic emote animations sprite sheet.png::CompressedTexture2D::2057718906924493440::1732834528::1732834529::1::::<><>::
-::res://assets/Sprite sheets/Icons/::1732834528
-All Icons.png::CompressedTexture2D::889246893914407254::1732834528::1732834529::1::::<><>::
-white icons.png::CompressedTexture2D::6524898863223072490::1732834528::1732834529::1::::<><>::
-::res://assets/Sprite sheets/Icons/special icons/::1732834528
-Small Happines-Sadness icons.png::CompressedTexture2D::5407185027691956025::1732834528::1732834529::1::::<><>::
-Special Icons.png::CompressedTexture2D::1770713608992646742::1732834528::1732834529::1::::<><>::
-::res://assets/Sprite sheets/Mouse sprites/::1732834528
-Catpaw holding Mouse icon.png::CompressedTexture2D::7731494553706300641::1732834528::1732834529::1::::<><>::
-Catpaw Mouse icon.png::CompressedTexture2D::1260538989830574959::1732834528::1732834529::1::::<><>::
-Catpaw pointing Mouse icon.png::CompressedTexture2D::6245958717628335475::1732834528::1732834529::1::::<><>::
-Triangle Mouse icon 1.png::CompressedTexture2D::3296642703240518611::1732834528::1732834529::1::::<><>::
-Triangle Mouse icon 2.png::CompressedTexture2D::1460043466523227162::1732834528::1732834529::1::::<><>::
-Triangle Mouse icon 3.png::CompressedTexture2D::2753900702225001910::1732834528::1732834529::1::::<><>::
 ::res://assets/Sprout Lands color pallet/::1732642251
 Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::7042101396859244055::1732642234::1732642251::1::::<><>::
 Sprout Lands defautlt palette.png::CompressedTexture2D::5579437881538512024::1732642234::1732642251::1::::<><>::
@@ -102,14 +102,17 @@ Tilled_Dirt_Wide_v2.png::CompressedTexture2D::1558033950874911381::1732642234::1
 Water.png::CompressedTexture2D::7335233069816434622::1732642234::1732642251::1::::<><>::
 Wooden_House_Roof_Tilset.png::CompressedTexture2D::6429521163756424015::1732642234::1732642251::1::::<><>::
 Wooden_House_Walls_Tilset.png::CompressedTexture2D::96254653919302216::1732642234::1732642251::1::::<><>::
-::res://scenes/::1732834077
-main.tscn::PackedScene::6787544845530678104::1732834077::0::1::::<><>::uid://duadthi4na070::::res://scenes/procedural_map.tscn<>uid://o4smubp86ewe::::res://scenes/player.tscn
-map.gdshader::Shader::-1::1732834077::0::1::::<><>::
-map.tscn::PackedScene::8593989429881283442::1732834076::0::1::::<><>::uid://c0eegd02rnwq0::::res://tilesets/map.tres
-player.tscn::PackedScene::1043626153935503528::1732834076::0::1::::<><>::uid://1rqm6xa77lyr::::res://assets/Characters/Basic Charakter Spritesheet.png<>res://scripts/player.gd
-procedural_map.tscn::PackedScene::8563255386259359277::1732834077::0::1::::<><>::res://scripts/procedural_map.gd<>uid://c0eegd02rnwq0::::res://tilesets/map.tres
+::res://atlas/::1732914428
+ui_atlas.tres::AtlasTexture::28029604848748654::1732914428::0::1::::<><>::uid://dgs5gc1cxeen8::::res://assets/Menus/Sprite sheet for Basic Pack.png
+::res://scenes/::1732914428
+main.tscn::PackedScene::6787544845530678104::1732914393::0::1::::<><>::uid://duadthi4na070::::res://scenes/procedural_map.tscn<>uid://o4smubp86ewe::::res://scenes/player.tscn
+main_menu.tscn::PackedScene::3014206113035447028::1732914428::0::1::::<><>::uid://cbcj80lk8dccp::::res://assets/fonts/pixelFont-7-8x14-sproutLands.ttf<>uid://dgs5gc1cxeen8::::res://assets/Menus/Sprite sheet for Basic Pack.png<>uid://duo80rmjx8t5s::::res://scenes/map.tscn
+map.gdshader::Shader::-1::1732914428::0::1::::<><>::
+map.tscn::PackedScene::8593989429881283442::1732914393::0::1::::<><>::uid://c0eegd02rnwq0::::res://tilesets/map.tres
+player.tscn::PackedScene::1043626153935503528::1732914393::0::1::::<><>::uid://1rqm6xa77lyr::::res://assets/Characters/Basic Charakter Spritesheet.png<>res://scripts/player.gd
+procedural_map.tscn::PackedScene::8563255386259359277::1732914393::0::1::::<><>::res://scripts/procedural_map.gd<>uid://c0eegd02rnwq0::::res://tilesets/map.tres
 ::res://scripts/::1732834007
 player.gd::GDScript::-1::1732754172::0::1::::<>CharacterBody2D<>::
 procedural_map.gd::GDScript::-1::1732834007::0::1::::<>Node2D<>::
-::res://tilesets/::1732819797
-map.tres::TileSet::6536073749527917993::1732819797::0::1::::<><>::uid://chnju5xs1tdnj::::res://assets/Tilesets/Fences.png<>uid://dxh27p60toksp::::res://assets/Tilesets/Grass.png<>uid://w1k0s1y4w0l2::::res://assets/Tilesets/Hills.png<>uid://b8puj7om1vqw0::::res://assets/Tilesets/Tilled_Dirt.png<>uid://nplihjq7dkxo::::res://assets/Tilesets/Tilled_Dirt_v2.png<>uid://dvexxv3pndw6f::::res://assets/Tilesets/Tilled_Dirt_Wide.png<>uid://wgyud24i7buj::::res://assets/Tilesets/Tilled_Dirt_Wide_v2.png<>uid://dcrihm20ms42e::::res://assets/Tilesets/Water.png<>uid://cxurjk8imn088::::res://assets/Tilesets/Wooden_House_Roof_Tilset.png<>uid://bmvkg5vfi42o::::res://assets/Tilesets/Wooden_House_Walls_Tilset.png<>uid://d1ndrc54b0soy::::res://assets/Objects/Wood_Bridge.png<>uid://c7jdosm44f5gs::::res://assets/Objects/Basic_Plants.png<>uid://d4jdbwqsrblio::::res://assets/Objects/Basic_Grass_Biom_things.png<>uid://dsu1hk11sv8jw::::res://assets/Objects/Basic_Furniture.png<>uid://82vf1p21lw4m::::res://assets/Tilesets/Doors.png
+::res://tilesets/::1732912827
+map.tres::TileSet::6536073749527917993::1732912827::0::1::::<><>::uid://chnju5xs1tdnj::::res://assets/Tilesets/Fences.png<>uid://dxh27p60toksp::::res://assets/Tilesets/Grass.png<>uid://w1k0s1y4w0l2::::res://assets/Tilesets/Hills.png<>uid://b8puj7om1vqw0::::res://assets/Tilesets/Tilled_Dirt.png<>uid://nplihjq7dkxo::::res://assets/Tilesets/Tilled_Dirt_v2.png<>uid://dvexxv3pndw6f::::res://assets/Tilesets/Tilled_Dirt_Wide.png<>uid://wgyud24i7buj::::res://assets/Tilesets/Tilled_Dirt_Wide_v2.png<>uid://dcrihm20ms42e::::res://assets/Tilesets/Water.png<>uid://cxurjk8imn088::::res://assets/Tilesets/Wooden_House_Roof_Tilset.png<>uid://bmvkg5vfi42o::::res://assets/Tilesets/Wooden_House_Walls_Tilset.png<>uid://d1ndrc54b0soy::::res://assets/Objects/Wood_Bridge.png<>uid://c7jdosm44f5gs::::res://assets/Objects/Basic_Plants.png<>uid://d4jdbwqsrblio::::res://assets/Objects/Basic_Grass_Biom_things.png<>uid://dsu1hk11sv8jw::::res://assets/Objects/Basic_Furniture.png<>uid://82vf1p21lw4m::::res://assets/Tilesets/Doors.png

@@ -1,8 +1,12 @@
-res://scenes/map.tscn
+res://scenes/main_menu.tscn
 res://tilesets/map.tres
 res://scenes/map.gdshader
+res://scenes/map.tscn
 res://scenes/player.tscn
 res://scenes/main.tscn
 res://scenes/procedural_map.tscn
+res://scripts/main_menu.gd
 res://scripts/procedural_map.gd
-res://scenes/main_menu.tscn
+res://scenes/loading_screen.tscn
+res://scripts/player.gd
+res://scenes/node_2d.tscn
